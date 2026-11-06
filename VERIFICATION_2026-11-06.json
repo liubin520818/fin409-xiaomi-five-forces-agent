@@ -1,0 +1,183 @@
+{
+  "run_id": "2aea82d0-928c-4da8-b232-9f9111941b58",
+  "started_at": "2026-11-06T11:02:58.446Z",
+  "completed_at": "2026-11-06T11:03:16.840Z",
+  "actual_models": [
+    "codex/gpt-6-luna-fast"
+  ],
+  "prompt_version": "fin409-v1.1.0",
+  "prompt_sha256": "508aa83ce92b1dc5fe79b662dde47c7eac6c539a04f2c0e1dd1e5d5afb431a2b",
+  "corpus_version": "2026-10-28-v3",
+  "corpus_sha256": "a5b58d3d62973290de22c1eee11524e8b4ac79783841724f3d484a3f63a9d1de",
+  "config_sha256": "11f5ce512d3eae591d18ef4dbd6f76761fcb11123ed2d6cd1fb7941f4027af53",
+  "date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "deterministic_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "typescript_check": "passed",
+  "live_model_runs_this_refresh": 1,
+  "live_result": "PASS for this bounded test",
+  "browser_ui": "question submitted and completed answer with two source links visibly read back",
+  "tool_call_count": 5,
+  "tool_names": [
+    "search_evidence",
+    "list_sources",
+    "read_evidence",
+    "calculate_share",
+    "read_evidence"
+  ],
+  "calculation": {
+    "ok": true,
+    "numerator_ref": {
+      "record_id": "CPCA-2025-09-BEV-retail",
+      "metric_name": "xiaomi_bev_retail"
+    },
+    "denominator_ref": {
+      "record_id": "CPCA-2025-09-BEV-retail",
+      "metric_name": "total_bev_retail"
+    },
+    "numerator": 41948,
+    "denominator": 826000,
+    "share_percent": 5.078450363196126,
+    "share_percent_display": "5.08%",
+    "scope": {
+      "period": "2025-09",
+      "geography": "mainland_china",
+      "powertrain": "BEV",
+      "basis": "retail",
+      "unit": "vehicles"
+    },
+    "sources": [
+      {
+        "id": "CPCA-2025-09-BEV-retail",
+        "title": "2025年9月份全国乘用车市场分析",
+        "issuer": "China Automobile Dealers Association, Passenger Car Market Information Joint Branch (CPCA)",
+        "published_date": "2025-10-13",
+        "period": "2025-09",
+        "geography": "mainland_china",
+        "powertrain": "BEV",
+        "basis": "retail",
+        "unit": "vehicles",
+        "reader_page": null,
+        "source_url": "https://www.cada.cn/Trends/info_91_10339.html",
+        "forces": [
+          "rivalry"
+        ],
+        "metrics": [
+          {
+            "name": "tesla_bev_retail",
+            "value": 71525,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "company_sales"
+          },
+          {
+            "name": "xiaomi_bev_retail",
+            "value": 41948,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "company_sales"
+          },
+          {
+            "name": "xpeng_bev_retail",
+            "value": 36577,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "company_sales"
+          },
+          {
+            "name": "total_bev_retail",
+            "value": 826000,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "market_total"
+          }
+        ]
+      },
+      {
+        "id": "CPCA-2025-09-BEV-retail",
+        "title": "2025年9月份全国乘用车市场分析",
+        "issuer": "China Automobile Dealers Association, Passenger Car Market Information Joint Branch (CPCA)",
+        "published_date": "2025-10-13",
+        "period": "2025-09",
+        "geography": "mainland_china",
+        "powertrain": "BEV",
+        "basis": "retail",
+        "unit": "vehicles",
+        "reader_page": null,
+        "source_url": "https://www.cada.cn/Trends/info_91_10339.html",
+        "forces": [
+          "rivalry"
+        ],
+        "metrics": [
+          {
+            "name": "tesla_bev_retail",
+            "value": 71525,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "company_sales"
+          },
+          {
+            "name": "xiaomi_bev_retail",
+            "value": 41948,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "company_sales"
+          },
+          {
+            "name": "xpeng_bev_retail",
+            "value": 36577,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "company_sales"
+          },
+          {
+            "name": "total_bev_retail",
+            "value": 826000,
+            "period": "2025-09",
+            "geography": "mainland_china",
+            "powertrain": "BEV",
+            "basis": "retail",
+            "unit": "vehicles",
+            "role": "market_total"
+          }
+        ]
+      }
+    ],
+    "note": "Approximate if either source value is rounded; retain the stated powertrain and retail scope.",
+    "corpus_version": "2026-10-28-v3",
+    "corpus_sha256": "a5b58d3d62973290de22c1eee11524e8b4ac79783841724f3d484a3f63a9d1de",
+    "test_mode": false
+  },
+  "limitations": [
+    "No fresh full-report generation was performed on 6 November.",
+    "The 28-card corpus is frozen at 28 October; report supplementary sources are not newly loaded into it.",
+    "No new live web verification of company or industry facts was performed during this runtime check.",
+    "One live scenario and deterministic tests do not establish universal model reliability.",
+    "Public GitHub source is not a publicly hosted chatbot; model execution requires a compatible local login.",
+    "The new local-Agent demonstration video remains to be recorded by the student."
+  ]
+}

@@ -1,5 +1,13 @@
 # FIN409 Xiaomi automotive Five Forces agent
 
+## November 2026 refresh
+
+The current dated source snapshot is [fin409-xiaomi-agent-2026-11-06.zip](fin409-xiaomi-agent-2026-11-06.zip), containing 37 source, configuration, evidence and verification files. Extract it and enter `fin409-xiaomi-agent` before running the existing quick-start commands. The original October archive below remains for provenance.
+
+On 6 November, 11 deterministic tests and TypeScript checking passed. One new browser-to-model run used all four evidence tool types, returned approximately 5.1% for the compatible September 2025 Xiaomi BEV retail share, and explained the limits on rivalry and cross-period NEV/BEV substitution. See [observed verification](NOVEMBER_2026_VERIFICATION.md) and [structured metadata](VERIFICATION_2026-11-06.json). This is a bounded runtime check, not a newly generated final report or live source refresh. The application prompt and frozen 28-card corpus are unchanged.
+
+GitHub hosts the reproducible source; fresh model execution remains local and requires the reader's own compatible model login and usage. A new local-Agent demonstration video is pending.
+
 A working local research application for mainland China's new battery-electric passenger-car market. Xiaomi Corporation is the listed parent; Tesla and XPeng are the principal automotive comparators.
 
 ## Download the complete implemented source
@@ -39,3 +47,4 @@ This is the public **source repository**, not a continuously hosted public chatb
 The application searches curated summaries and reads their original-source locations; it does not browse live websites or embed whole PDFs. Group, vehicle and mixed EV/AI financial measures remain distinct. September2025 BEV shares are historical author calculations with portfolio-based reclassification and a rounded denominator; the September2026 BEV numerator gap remains unresolved. The explicitly synthetic T5 injection fixture is separated from production data and proves only its observed test case.
 
 Selected actual answers and tool traces are inside `examples/` in the source archive. The complete T6 report-generation output and edited coursework report remain in the private local delivery package. This repository does not contain the student's course PDFs, signed declaration, video, Turnitin result or submission receipt. GitHub and Google Drive are development/research connectors, not enabled runtime plugins.
+
